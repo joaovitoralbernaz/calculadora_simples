@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
 </head>
 <body>
     <script src="script.js"></script>
+    <div>
     <input type="text"  id="zeroum" placeholder="N° UM"><br>
     <input type="text"  id="zerodois" placeholder="N° DOIS"><br>
+    </div>
+    <div>
     <button onclick="calcula('+')">+</button><br>
     <button onclick="calcula('-')">-</button><br>
     <button onclick="calcula('*')">x</button><br>
     <button onclick="calcula('/')">:</button><br>
-    <span>Resultado: </span>
+    <span id="resultado">Resultado: </span>
+    </div>
 </body>
 </html>
